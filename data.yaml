@@ -1,0 +1,25 @@
+# Train/val datasets
+path: /Users/atharvabadkas/Coding /YOLO Vessel Detection  # dataset root dir
+train: /Users/atharvabadkas/Coding /YOLO Vessel Detection /data/train/images # train images
+val: /Users/atharvabadkas/Coding /YOLO Vessel Detection /data/val/images # val images
+
+# Classes
+names:
+  0: aluminium paraat
+  1: bain mary
+  2: big round tray
+  3: bucket
+  4: cooker 2
+  5: dosa counter
+  6: dosa vessel
+  7: flat tray(taatli)
+  8: german vessel
+  9: ghamela
+  10: punjabi counter
+  11: sandwich counter
+  12: set dosa vessel
+  13: steel tray
+  14: stew vessel
+
+# Number of classes
+nc: 15 
